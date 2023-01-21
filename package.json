@@ -1,0 +1,32 @@
+{
+	"name": "sae-data-viz",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"docker:build": "bash ./scripts/docker-build.sh",
+		"docker:run": "bash ./scripts/docker-run.sh"
+	},
+	"dependencies": {
+		"daisyui": "^2.46.1",
+		"echarts": "^5.4.1",
+		"echarts-for-react": "^3.0.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.8",
+		"@types/react": "^18.0.26",
+		"@types/react-dom": "^18.0.9",
+		"@vitejs/plugin-react": "^3.0.0",
+		"autoprefixer": "^10.4.13",
+		"postcss": "^8.4.20",
+		"prettier": "^2.8.1",
+		"tailwindcss": "^3.2.4",
+		"typescript": "^4.9.3",
+		"vite": "^4.0.0"
+	}
+}

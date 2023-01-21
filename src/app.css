@@ -1,0 +1,50 @@
+header #logo-sae {
+	animation: logo-animation 0.8s ease-out;
+}
+header .author {
+	animation: logo-name 0.8s ease-out;
+}
+header .logo-iut {
+	animation: logo-iut-animation 1s ease;
+}
+header .logo-universita {
+	animation: logo-universita-animation 1s ease;
+}
+
+@keyframes logo-animation {
+	0% {
+		transform: scale(200%);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes logo-name {
+	0% {
+		transform: translateY(300%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes logo-iut-animation {
+	0% {
+		transform: translateX(800%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes logo-universita-animation {
+	0% {
+		transform: translateX(300%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
